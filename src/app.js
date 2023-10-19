@@ -32,11 +32,12 @@ window.onload = function() {
 
   // Function to change card with button //
   document.getElementById("button").onclick = function() {
-    myFunction();
+    myFunction(randomCard);
   };
 
   function myFunction() {
     document.getElementById("button").innerHTML = "YOU CLICKED ME!";
+    // Function to change card with button //
   }
   //write your code here
   randomCard();
