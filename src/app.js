@@ -30,6 +30,14 @@ window.onload = function() {
     bottom.innerHTML = `<span>${entity} </span><span>${cardValue}</span>`;
   }
 
+  // Function to change card with button //
+  document.getElementById("button").onclick = function() {
+    myFunction();
+  };
+
+  function myFunction() {
+    document.getElementById("button").innerHTML = "YOU CLICKED ME!";
+  }
   //write your code here
   randomCard();
 };
